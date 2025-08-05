@@ -23,10 +23,7 @@
 import { computed } from 'vue'
 
 const props = defineProps({
-  whatsappNumber: {
-    type: String,
-    required: true
-  },
+  whatsappNumber: "5493413273467",
   whatsappMessage: {
     type: String,
     default: "Hola, quiero consultar sobre mi caso"
@@ -69,8 +66,8 @@ const buttonClasses = computed(() => {
   }
   
   const variantClasses = {
-    primary: 'bg-emerald-600 hover:bg-emerald-700 text-white shadow-lg hover:shadow-xl',
-    light: 'bg-white hover:bg-slate-100 text-slate-900 shadow-lg hover:shadow-xl'
+    primary: 'bg-[#25D366] hover:bg-[#128C7E] text-white shadow-lg hover:shadow-xl',
+    light: 'bg-[#25D366] hover:bg-[#128C7E] text-white shadow-lg hover:shadow-xl'
   }
   
   return `${baseClasses} ${sizeClasses[props.size]} ${variantClasses[props.variant]}`

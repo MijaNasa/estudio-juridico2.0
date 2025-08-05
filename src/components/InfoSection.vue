@@ -48,7 +48,7 @@
         <div class="lg:col-span-2 order-1 lg:order-2">
           <div class="relative">
             <img 
-              :src="image" 
+              src="../assets/imagenes/justicia4.jpg" 
               :alt="'Consulta legal especializada'"
               class="w-full h-[400px] md:h-[600px] object-cover rounded-2xl shadow-2xl"
             />

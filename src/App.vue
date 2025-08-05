@@ -39,7 +39,7 @@
     <!-- Footer -->
     <footer class="bg-slate-900 text-white py-8">
       <div class="container mx-auto px-4 text-center">
-        <p>&copy; 2024 Estudio Jurídico Especializado. Todos los derechos reservados.</p>
+        <p>&copy; 2024 Estudio Jurídico Laboral. Todos los derechos reservados.</p>
         <p class="text-slate-400 text-sm mt-2">Matrícula profesional: XXXXX</p>
       </div>
     </footer>
@@ -54,57 +54,57 @@ import TestimonialsSection from './components/TestimonialsSection.vue'
 import FinalCTASection from './components/FinalCTASection.vue'
 import Navbar from './components/Navbar.vue'
 
-// Datos editables del Hero
+// 🔷 Hero adaptado a derecho laboral
 const heroData = ref({
-  title: "¿Estás pasando por un divorcio complicado?",
-  subtitle: "Te ayudamos a proteger tus derechos y los de tu familia con asesoramiento legal especializado",
-  backgroundImage: "/placeholder.svg?height=600&width=1200"
+  title: "¿Fuiste despedido o maltratado en tu trabajo?",
+  subtitle: "Defendemos tus derechos laborales. Consultanos y conocé qué te corresponde legalmente.",
+  backgroundImage: "/placeholder.svg?height=600&width=1200" // Reemplazá por imagen laboral si querés
 })
 
-// Datos de contacto
+// 📞 Datos de contacto
 const contactData = ref({
-  whatsappNumber: "5491123456789", // Reemplazar por número real
-  whatsappMessage: "Hola, quiero consultar sobre mi caso"
+  whatsappNumber: "5493413273467", // Número de WhatsApp actualizado
+  whatsappMessage: "Hola, quiero consultar por un problema laboral"
 })
 
-// Datos de la sección informativa
+// 🔍 Sección informativa sobre derecho laboral
 const infoData = ref({
-  title: "¿Cómo trabajamos en tu caso?",
-  description: "Nuestro estudio se especializa en derecho de familia, brindando asesoramiento integral y personalizado. Entendemos que cada situación es única y requiere un enfoque específico.",
+  title: "Abogado especializado en Derecho Laboral",
+  description: "Nuestro estudio jurídico se dedica exclusivamente a la defensa de trabajadores. Ya sea que hayas sido despedido, no estés registrado o sufras acoso laboral, te ayudamos a reclamar lo que te corresponde.",
   services: [
-    "Divorcios consensuados y contenciosos",
-    "Régimen de visitas y tenencia de menores",
-    "Liquidación de sociedad conyugal",
-    "Violencia familiar y medidas cautelares",
-    "Adopciones y filiación",
-    "Alimentos y cuota alimentaria"
+    "Despidos con y sin causa",
+    "Trabajo no registrado (en negro)",
+    "Indemnizaciones y diferencias salariales",
+    "Acoso laboral y mobbing",
+    "Accidentes de trabajo y reclamos a ART",
+    "Liquidación final y recibos mal liquidados"
   ],
-  image: "/placeholder.svg?height=400&width=600"
+  image: "/placeholder.svg?height=400&width=600" // Reemplazar por imagen de temática laboral
 })
 
-// Datos de testimonios
+// 🧾 Testimonios laborales
 const testimonialsData = ref([
   {
-    name: "María González",
-    text: "Excelente atención y profesionalismo. Me ayudaron en un momento muy difícil y lograron el mejor resultado para mi familia.",
+    name: "Juan Pérez",
+    text: "Me despidieron sin motivo y gracias al abogado recuperé todo lo que me correspondía. Excelente atención.",
     rating: 5
   },
   {
-    name: "Carlos Rodríguez",
-    text: "Muy recomendable. Transparentes en sus honorarios y siempre disponibles para resolver mis dudas.",
+    name: "Laura Gómez",
+    text: "Trabajé en negro por años y me ayudaron a hacer el reclamo completo. Totalmente recomendable.",
     rating: 5
   },
   {
-    name: "Ana Martínez",
-    text: "Gracias a su trabajo pude resolver mi situación de manera rápida y favorable. Totalmente profesionales.",
+    name: "Martín Sosa",
+    text: "Tuve un accidente en el trabajo y la ART no respondía. El estudio me acompañó en todo el proceso.",
     rating: 5
   }
 ])
 
-// Datos del CTA final
+// 📣 CTA final
 const ctaData = ref({
-  title: "No esperes más para resolver tu situación legal",
-  subtitle: "Contactanos ahora y recibí asesoramiento especializado sin compromiso"
+  title: "Reclamá lo que te corresponde como trabajador",
+  subtitle: "Tu consulta es confidencial y sin compromiso. Contactanos ahora por WhatsApp."
 })
 </script>
 

@@ -1,5 +1,5 @@
 <template>
-  <section class="relative min-h-screen flex items-center justify-center text-white overflow-hidden pt-16">
+  <section id="inicio" class="relative min-h-screen flex items-center justify-center text-white overflow-hidden pt-16">
     <!-- Background Image with Overlay -->
     <div class="absolute inset-0 z-0">
       <img 
