@@ -57,7 +57,7 @@ import Navbar from './components/Navbar.vue'
 // 🔷 Hero adaptado a derecho laboral
 const heroData = ref({
   title: "Defendemos al trabajador",
-  subtitle: "Consulta online",
+  subtitle: "Respondemos SIN CARGO todas tus consultas",
   backgroundImage: "/placeholder.svg?height=600&width=1200" // Reemplazá por imagen laboral si querés
 })
 
