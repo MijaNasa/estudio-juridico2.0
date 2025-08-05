@@ -56,8 +56,8 @@ import Navbar from './components/Navbar.vue'
 
 // 🔷 Hero adaptado a derecho laboral
 const heroData = ref({
-  title: "¿Fuiste despedido o maltratado en tu trabajo?",
-  subtitle: "Defendemos tus derechos laborales. Consultanos y conocé qué te corresponde legalmente.",
+  title: "Defendemos al trabajador",
+  subtitle: "Consulta online",
   backgroundImage: "/placeholder.svg?height=600&width=1200" // Reemplazá por imagen laboral si querés
 })
 

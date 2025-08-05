@@ -1,13 +1,17 @@
 <template>
   <section id="inicio" class="relative min-h-screen flex items-center justify-center text-white overflow-hidden pt-16">
-    <!-- Background Image with Overlay -->
+    <!-- Background Image with Overlay and Pattern -->
     <div class="absolute inset-0 z-0">
       <img 
         :src="backgroundImage" 
         :alt="'Fondo de estudio jurídico'"
         class="w-full h-full object-cover"
       />
-      <div class="absolute inset-0 bg-slate-900/80"></div>
+      <div class="absolute inset-0 bg-gray-900"></div>
+      <!-- Background pattern -->
+      <div class="absolute inset-0 opacity-10">
+        <div class="absolute inset-0" style="background-image: radial-gradient(circle at 1px 1px, white 1px, transparent 0); background-size: 20px 20px;"></div>
+      </div>
     </div>
     
     <!-- Content -->
