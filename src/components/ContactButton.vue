@@ -50,7 +50,7 @@ const buttonText = computed(() => {
     case 'small':
       return 'Consultar'
     case 'large':
-      return 'Hablá con un especialista'
+      return '+54 9 341 327-3467'
     default:
       return 'Contactar por WhatsApp'
   }
