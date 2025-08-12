@@ -63,7 +63,7 @@ const heroData = ref({
 
 // 📞 Datos de contacto
 const contactData = ref({
-  whatsappNumber: "5493413273467", // Número de WhatsApp actualizado
+  whatsappNumber: "5493417799783", // Número de WhatsApp actualizado
   whatsappMessage: "Hola, quiero consultar por un problema laboral"
 })
 
