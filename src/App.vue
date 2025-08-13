@@ -39,8 +39,8 @@
     <!-- Footer -->
     <footer class="bg-slate-900 text-white py-8">
       <div class="container mx-auto px-4 text-center">
-        <p>&copy; 2024 Estudio Jurídico Laboral. Todos los derechos reservados.</p>
-        <p class="text-slate-400 text-sm mt-2">Matrícula profesional: XXXXX</p>
+        <p>&copy; 2025 Estudio Jurídico Laboral. Todos los derechos reservados.</p>
+        <p class="text-slate-400 text-sm mt-2"></p>
       </div>
     </footer>
   </div>
