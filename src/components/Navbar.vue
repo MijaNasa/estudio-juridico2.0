@@ -89,7 +89,7 @@
   defineProps({
     whatsappNumber: {
       type: String,
-      default: "5491123456789"
+      default: ""
     },
     whatsappMessage: {
       type: String,

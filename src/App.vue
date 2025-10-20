@@ -57,13 +57,13 @@ import Navbar from './components/Navbar.vue'
 // 🔷 Hero adaptado a derecho laboral
 const heroData = ref({
   title: "Defendemos al trabajador",
-  subtitle: "Respondemos SIN CARGO todas tus consultas",
+  subtitle: "Respondemos todas tus consultas",
   backgroundImage: "/placeholder.svg?height=600&width=1200" // Reemplazá por imagen laboral si querés
 })
 
 // 📞 Datos de contacto
 const contactData = ref({
-  whatsappNumber: "5493417799783", // Número de WhatsApp actualizado
+  whatsappNumber: "5493417431805", // Número de WhatsApp actualizado
   whatsappMessage: "Hola, quiero consultar por un problema laboral"
 })
 

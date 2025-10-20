@@ -23,7 +23,7 @@
 import { computed } from 'vue'
 
 const props = defineProps({
-  whatsappNumber: "5493417799783",
+  whatsappNumber: "5493417431805",
   whatsappMessage: {
     type: String,
     default: "Hola, quiero consultar sobre mi caso"
@@ -50,7 +50,7 @@ const buttonText = computed(() => {
     case 'small':
       return 'Consultar'
     case 'large':
-      return '+54 9 341 779-9783'
+      return '+54 9 341 743-1805'
     default:
       return 'Contactar por WhatsApp'
   }
